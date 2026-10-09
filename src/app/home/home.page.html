@@ -115,7 +115,7 @@
               cuando no hay resultados (length === 0) Y además hay filtros activos (hayFiltrosActivos()) -->
 
   @if (hayDatos()) {
-  <ion-item lines="none">
+  <ion-item>
     <ion-label>
       Mostrando {{restaurantesFiltrados().length}} de {{restaurantesCargados().length}} restaurantes
       @if (restaurantesFiltrados().length === 0 && hayFiltrosActivos()) {
