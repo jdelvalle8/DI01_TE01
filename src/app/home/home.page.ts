@@ -176,16 +176,4 @@ export class HomePage {
     this.localidadesSeleccionadas.set([]);
   }
 
-
-  // ############################### REGION AUXILIARES ###############################
-
-  // Devuelve el número de estrellas Michelin (0 si no tiene o el valor no es numérico)
-  estrellasMichelin() {
-    
-  }
-
-  // Devuelve el número de soles Repsol (0 si no tiene o el valor no es numérico)
-  repsolSoles() {
-    
-  }
 }
